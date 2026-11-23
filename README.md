@@ -1,10 +1,10 @@
 # Amin
 
-Building Python finance-engineering projects around portfolio and risk analytics, with a focus on transparent, testable calculations.
+Building MEEM Technologies: transparent, deterministic and auditable investment-technology software, with a focus on testable financial calculations.
 
 I build tools where every number can be traced to a stated formula, a validated input and a passing test, with the financial assumptions written down rather than implied.
 
-## Featured project
+## Completed projects
 
 ### [Portfolio Risk X-Ray](https://github.com/AminQuantSystems/portfolio-risk-xray)
 
@@ -15,6 +15,16 @@ A Python tool that turns a CSV of portfolio positions into market values, portfo
 - 96 automated pytest tests, including hand-checkable golden fixtures, run on every push by GitHub Actions
 - Documented limits: the exposure figure ignores correlation, and the README explains why it is not portfolio volatility, VaR or a risk contribution
 
+### [Market Regime Monitor](https://github.com/AminQuantSystems/market-regime-monitor)
+
+A deterministic market-state analytics application covering Direction, Momentum, realised Volatility, benchmark-relative Performance and categorical change monitoring.
+
+- Python finance core, separate from a FastAPI adapter and React / TypeScript / Vite interface
+- Explicit formulas, strict data validation, hand-checkable fixtures and deterministic reason codes
+- Extensive automated finance, API and frontend tests, checked by GitHub Actions
+- Containerised Azure demonstration architecture with verified-email access; hosted availability is separate from the repository's deployment evidence
+- Analytical research software: no live market-data feed, investment recommendations, trading or portfolio construction
+
 ## How I work
 
 - Deterministic calculations with stated units, conventions and thresholds
@@ -22,13 +32,15 @@ A Python tool that turns a CSV of portfolio positions into market values, portfo
 - Small modules, each with its own tests
 - Clear documentation of what a model does not claim
 
-## Currently building
+## Next: Portfolio Rebalancing Engine
 
-The next direction for this work is covariance-based portfolio volatility, scenario stress testing and historical-return analysis, together with further portfolio and risk analytics projects built to the same standard.
+The next planned major build is MEEM Technologies — Portfolio Rebalancing Engine: supplied holdings, cash, prices, target allocations and explicit rules would produce deterministic proposed actions and a projected portfolio state. It is not yet an implemented project on this GitHub account.
+
+The longer-term direction is reusable portfolio, risk, market-data and investment-systems capabilities, with client-specific adapters around tested financial components. This is a development direction, not a claim that a complete institutional platform already exists.
 
 ## Tools
 
-Python · pandas · pytest · Streamlit · GitHub Actions · Git
+Python · pandas · pytest · FastAPI · React · TypeScript · Vite · Streamlit · Docker · Azure · GitHub Actions · Git
 
 ## Contact
 
